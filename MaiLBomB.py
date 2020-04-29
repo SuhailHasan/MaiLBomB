@@ -39,7 +39,7 @@ elif server == 'yahoo' or '2' or 'Yahoo':
     smtp_server = 'smtp.mail.yahoo.com'
     port = 25
 else:
-    print 'Kindly Enter Your Answer in 1 or 2 in Mail Server.'
+    print ('Kindly Enter Your Answer in 1 or 2 in Mail Server.')
     sys.exit()
 
 print ('')
