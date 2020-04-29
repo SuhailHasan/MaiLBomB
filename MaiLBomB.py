@@ -24,7 +24,7 @@ def BomEmail():
 
 server = raw_input ('MailServer 1.Gmail/2.Yahoo: ')
 user = raw_input('Email: ')
-passwd = getpass.getpass('Password: ')
+passwd = raw_input('Password: ')
 
 
 to = raw_input('\nTo: ')
